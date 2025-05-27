@@ -39,7 +39,7 @@ export default function HomePage() {
               <span className="text-black font-bold">Al Saif Decor</span>
             </h1>
             <p className="text-gray-600 mt-6 text-lg md:w-3/4">
-              A well-designed space is more than just visual appeal  it is
+              A well designed space is more than just visual appeal  it is
               where comfort meets creativity  Whether you are structuring a
               new office or upgrading interiors Al Saif Decor brings vision to
               life through thoughtful design quality craftsmanship and
