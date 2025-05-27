@@ -33,7 +33,7 @@ const Portfolio = () => {
               </h2>
               <p className="text-gray-600 mt-2 mb-6 max-w-xl font-mono">
                 Explore our diverse range of projects showcasing innovation
-                elegance and functionality.
+                elegance and functionality
               </p>
             </div>
 
@@ -102,7 +102,7 @@ const Portfolio = () => {
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-12 text-center">
           A simple seamless process to create stunning architectural and
-          interior designs.
+          interior designs
         </p>
 
         <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
