@@ -61,7 +61,7 @@ const ContactPage = () => {
             </p>
             <div className="space-y-1 text-sm text-gray-600 font-mono">
               <p>Office 307, Al Faisal Building 1,<br />King Faisal Street,<br />Sharjah, U.A.E</p>
-              <p className="text-blue-600 underline mt-2">contact@alsaif.com</p>
+              <p className="text-gray-800 underline mt-2">admin@alsaifdecor.com</p>
               <p>+971 (0) 58 874 29 91</p>
             </div>
             <button

@@ -5,7 +5,7 @@ import ClientsLogo from '@/components/ClientsLogo';
 import Footer from '@/components/Footer';
 import Services from '@/components/Services';
 import SeoHead from '@/components/SeoHead'; // 🛜 Add SEO
-import Image from 'next/image';
+// import img from 'next/image';
 import excellence from '../../public/assets/excelence.jpg';
 
 const About = () => {
@@ -38,8 +38,8 @@ const About = () => {
             
             {/* Image Section */}
             <div className="flex-shrink-0 hidden sm:block">
-              <Image
-                src={excellence}
+              <img
+                src="/assets/excelence.jpg"
                 alt="17 Years of Excellence"
                 width={160}
                 height={160}

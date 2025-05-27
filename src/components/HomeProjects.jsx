@@ -32,12 +32,12 @@ const HomeProjects = () => {
                 <h4 className="text-sm text-gray-500 uppercase">Setup  {project.number}</h4>
                 <h2 className="text-lg font-semibold">➔{project.title}</h2>
                 <p className="text-sm text-gray-600 mt-2">{project.subtitle}</p>
-                <button
+                {/* <button
                   onClick={() => router.push(`/project/${project.id}`)}
                   className="text-sm text-blue-600 mt-4 hover:underline"
                 >
                   See Detail →
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

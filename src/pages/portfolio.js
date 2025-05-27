@@ -2,8 +2,8 @@ import React ,{useState} from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { portfolio, portfolioDetail,categories,categoryData } from '@/data/clientsData';
-import Image from 'next/image';
-import homecard from '../../public/assets/homcard6.jpg';
+// import Image from 'next/image';
+// import homecard from '../../public/assets/homcard6.jpg';
 const Portfolio = () => {
 
 
@@ -34,7 +34,7 @@ const Portfolio = () => {
           <div className="grid gap-6 lg:grid-cols-3">
             {/* Featured project */}
             <div className="lg:col-span-2">
-              <Image
+              <img
                 src={portfolio[1].image}
                 alt={portfolio[1].title}
                 width={1000}
@@ -48,7 +48,7 @@ const Portfolio = () => {
             <div className="flex flex-col gap-6 md:-mt-36">
               {[portfolio[0], portfolio[2]].map((item, idx) => (
                 <div key={idx}>
-                  <Image
+                  <img
                     src={item.image}
                     alt={item.title}
                     width={600}
@@ -64,7 +64,7 @@ const Portfolio = () => {
             <div className="flex lg:col-span-2 md:w-full gap-6 md:-mt-34">
               {[portfolio[3], portfolio[4]].map((item, idx) => (
                 <div key={idx}>
-                  <Image
+                  <img
                     src={item.image}
                     alt={item.title}
                     width={800}
@@ -85,7 +85,7 @@ const Portfolio = () => {
         <h3 className="text-sm uppercase text-gray-400 mb-2 text-center">How it Works</h3>
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">How We Bring Your Vision to Life</h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-12 text-center">
-          A simple, seamless process to create stunning architectural and interior designs.
+          A simple seamless process to create stunning architectural and interior designs.
         </p>
 
         <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
@@ -109,8 +109,8 @@ const Portfolio = () => {
 
         {/* Final Showcase Section */}
         <div className="mt-16 relative w-full max-w-7xl mx-auto">
-          <Image
-            src={homecard}
+          <img
+            src="/assets/homcard6.jpg"
             alt="Interior Design Showcase"
             width={1600}
             height={600}

@@ -40,7 +40,7 @@ const Services = () => {
           <p className="text-sm font-light p-4">
             Our architectural experts at Al Saif bring a strategic approach to every project. 
             We combine creativity with functionality, ensuring every structure meets the highest 
-            technical standards while reflecting your brand’s identity. Let us help you design 
+            technical standards while reflecting your brands identity. Let us help you design 
             sustainable and future-ready spaces.
           </p>
         </div>
@@ -59,7 +59,7 @@ const Services = () => {
         <div className="shadow-sm p-5 rounded-l-lg">
           <p className="text-lg font-semibold mb-2 px-4">3D Visualization & Rendering</p>
           <p className="text-sm font-light p-4">
-            See your dreams come to life with Al Saif’s high-quality 3D rendering services. 
+            See your dreams come to life with Al Saif high-quality 3D rendering services. 
             Ideal for architects, developers, and interior designers, our photo-realistic visualizations 
             help you showcase spaces before they are built — ensuring clarity, trust, and excitement.
           </p>
