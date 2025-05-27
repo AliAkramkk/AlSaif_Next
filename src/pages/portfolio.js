@@ -32,8 +32,8 @@ const Portfolio = () => {
                 Our Creations Speak for Themselves
               </h2>
               <p className="text-gray-600 mt-2 mb-6 max-w-xl font-mono">
-                Explore our diverse range of projects showcasing innovation,
-                elegance, and functionality.
+                Explore our diverse range of projects showcasing innovation
+                elegance and functionality.
               </p>
             </div>
 

@@ -40,9 +40,9 @@ export default function HomePage() {
             </h1>
             <p className="text-gray-600 mt-6 text-lg md:w-3/4">
               A well-designed space is more than just visual appeal — it&apos;s
-              where comfort meets creativity. Whether you&apos;re structuring a
+              where comfort meets creativity. Whether you are structuring a
               new office or upgrading interiors, Al Saif Decor brings vision to
-              life through thoughtful design, quality craftsmanship, and
+              life through thoughtful design quality craftsmanship and
               excellence built over 17 years.
             </p>
 
