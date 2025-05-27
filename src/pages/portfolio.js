@@ -167,7 +167,7 @@ const Portfolio = () => {
             {/* Main Content */}
             <div className="w-full md:w-3/4 p-4 max-h-[80vh] overflow-y-auto">
               <div className="flex justify-between items-center mb-4">
-                <h1 className="text-2xl font-bold">What's new?</h1>
+                <h1 className="text-2xl font-bold">What is new?</h1>
                 {/* <button className="bg-black text-white text-xs font-thin px-10 py-1 rounded-full">VIEW ALL <br /> PRODUCTS</button> */}
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-0 lg:mt-10">
