@@ -1,0 +1,321 @@
+const clients = [
+  { id: 1, name: "Client One", logo: "/assets/client1.png" },
+  { id: 2, name: "Client Two", logo: "/assets/client2.png" },
+  { id: 3, name: "Client Three", logo: "/assets/client3.png" },
+  { id: 4, name: "Client Four", logo: "/assets/client4.png" },
+  { id: 5, name: "Client Five", logo: "/assets/client5.png" },
+  { id: 6, name: "Client Six", logo: "/assets/client6.png" },
+  { id: 7, name: "Client Seven", logo: "/assets/client7.jpg" },
+  { id: 8, name: "Client Eight", logo: "/assets/client8.jpg" },
+  { id: 9, name: "Client Nine", logo: "/assets/client9.jpg" },
+  { id: 10, name: "Client Ten", logo: "/assets/client10.jpg" },
+  { id: 11, name: "Client Eleven", logo: "/assets/client11.jpg" },
+  { id: 12, name: "Client Twelve", logo: "/assets/client12.jpg" },
+  { id: 13, name: "Client Thirteen", logo: "/assets/client13.jpg" },
+  { id: 14, name: "Client Fourteen", logo: "/assets/client14.jpg" },
+  { id: 15, name: "Client Fifteen", logo: "/assets/client15.jpg" },
+  { id: 16, name: "Client Sixteen", logo: "/assets/client16.jpg" },
+  { id: 17, name: "Client Seventeen", logo: "/assets/client17.jpg" },
+  { id: 18, name: "Client Eighteen", logo: "/assets/client18.jpg" },
+  { id: 19, name: "Client Nineteen", logo: "/assets/client19.jpg" },
+  { id: 20, name: "Client Twenty", logo: "/assets/client20.jpg" },
+  { id: 21, name: "Client Twenty One", logo: "/assets/client21.jpg" },
+  { id: 22, name: "Client Twenty Two", logo: "/assets/client22.jpg" },
+  { id: 23, name: "Client Twenty Three", logo: "/assets/client23.jpg" },
+  { id: 24, name: "Client Twenty Four", logo: "/assets/client24.jpg" },
+  { id: 25, name: "Client Twenty Five", logo: "/assets/client25.jpg" },
+  { id: 26, name: "Client Twenty Six", logo: "/assets/client26.jpg" },
+  { id: 27, name: "Client Twenty Seven", logo: "/assets/client27.jpg" },
+  { id: 28, name: "Client Twenty Eight", logo: "/assets/client28.jpg" },
+  { id: 29, name: "Client Twenty Nine", logo: "/assets/client31.png" },
+  { id: 30, name: "FlyDubai", logo: "/assets/flydubai.png" },
+  { id: 31, name: "Trip.com", logo: "/assets/Trip.png" },
+  { id: 32, name: "Mapple", logo: "/assets/mapple.png" },
+];
+
+export default clients;
+
+export const homeProjects = [
+  {
+    id: 1,
+    title: " MODERN KITCHEN INTERIOR",
+    subtitle:
+      "Create a modern office space that enhances productivity and reflects your brand identity.",
+    // subtitle:
+    //   "Transform your kitchen into a modern, functional space with our custom design and professional installation services.",
+    number: "01",
+    image: "/assets/k1.jpeg",
+  },
+  {
+    id: 2,
+    title: " MODULAR OFFICE SETUP FOR SMART WORKSPACES",
+    subtitle:
+      "Create an inviting shopping experience with stylish, efficient shop interiors designed to boost your brand and customer comfort",
+    number: "02",
+    image: "/assets/mdlr2.jpeg",
+  },
+  {
+    id: 3,
+    title: "SHOP INTERIOR",
+    subtitle:
+      "Upgrade your workspace with modular office solutions that balance aesthetics, productivity, and employee well-being",
+    number: "03",
+    image: "/assets/shopint.jpeg",
+  },
+  {
+    id: 5,
+    title: "KINDERGARTEN INTERIOR",
+    subtitle:
+      "Design a vibrant and safe kindergarten space that fosters creativity and learning for young minds.",
+    // subtitle:
+    //   "Design a cozy, clean, and family-friendly living room that blends comfort, style, and functionality perfectly.",
+    number: "04",
+    image: "/assets/K2.jpEg",
+  },
+
+  
+];
+
+export const portfolio = [
+  {
+    id: 1,
+    title: "Modular Office Setup",
+    image: "/assets/mdrn3.jpeg",
+  },
+   {
+    id: 2,
+    title: "Modern Kitchen Interior",
+    image: "/assets/k1.jpeg",
+  },
+  {
+    id: 3,
+    title: "Reception Area",
+    image: "/assets/rec4.jpeg",
+  },
+ 
+  {
+    id: 4,
+    title: "Custom Interior Design",
+    image: "/assets/k4.jpeg",
+  },
+  {
+    id: 5,
+    title: "Kindergarten",
+    image: "/assets/k3.jpeg",
+  },
+];
+
+export const portfolioDetail = [
+  {
+    title: "Consultation",
+    description: "We understand your needs and vision.",
+  },
+  {
+    title: "Design & Visualization",
+    description: "We create and visualize tailored design concepts.",
+  },
+  {
+    title: "Execution & Delivery",
+    description: "We bring your vision to life with flawless execution.",
+  },
+];
+
+export const categories = [
+  { key: "All", title: "All" },
+  { key: "kindergarten", title: "Kindergarten" },
+  { key: "OfficeSpace", title: "Office Space" },
+  { key: "ReceptionArea", title: "Reception Area" },
+  { key: "ModernSpace", title: "Modern Space" },
+];
+
+
+export const categoryData = 
+  {
+    All: [
+      {
+        title: "Modular Recption Area",
+        description: "Creating welcoming and professional reception spaces.",
+        image: "/assets/rec5.jpeg",
+      },
+      {
+        title: "Modular Office Setup",
+        description: "Creating flexible and efficient office environments.",
+        image: "/assets/hom3.jpeg",
+      },
+      {
+        title: "Kindergarten",
+        description: "Designing engaging and safe spaces for children.",
+      
+        image: "/assets/k12.jpeg",
+      },
+      {
+        title: "Outdoor Space",
+        description: "Designing beautiful and functional outdoor spaces.",
+      
+        image: "/assets/out1.jpeg",
+      },
+      {
+        title: "Office Space",
+        description: "Creating flexible and efficient office environments.",
+        image: "/assets/offi11.jpeg",
+      },
+      {
+        title: "Custom Interior Design",
+        description: "Designing unique and personalized interior spaces.",
+       
+        image: "/assets/rec3.jpeg",
+      },
+    ],
+     kindergarten: [
+       {
+          title: "Kindergarten",
+          description: "Designing engaging and safe spaces for children.",
+          image: "/assets/k18.jpeg",
+        },
+        {
+          title: "Play Area",
+          description: "Creating vibrant and stimulating environments for learning.",
+          image: "/assets/k2.jpeg",
+       },
+        {
+          title: "Creative Space",
+          description: "Creating vibrant and stimulating environments for learning.",
+          image: "/assets/k3.jpeg",
+       },
+        {
+          title: "Custom Wall Design",
+          description: "Creating vibrant and stimulating environments for learning.",
+          image: "/assets/k9.jpeg",
+       },
+        {
+          title: "Reception Area",
+          description: "Creating vibrant and stimulating environments for learning.",
+          image: "/assets/k17.jpeg",
+       },
+        {
+          title: "Fun and Learn Space",
+          description: "Creating vibrant and stimulating environments for learning.",
+          image: "/assets/k4.jpeg",
+       },
+     ],
+     OfficeSpace: [
+       {
+          title: "Workstation",
+          description: "Designing functional and stylish office environments.",
+          image: "/assets/offI1.jpeg",
+        },
+        {
+          title: "Smart Cabin",
+          description: "Designing functional and stylish office environments.",
+          image: "/assets/offi3.jpeg",
+       },
+        {
+          title: "Mini Meeting Space",
+          description: "Designing functional and stylish office environments.",
+          image: "/assets/offi4.jpeg",
+       },
+        {
+          title: "Modern Office Space",
+          description: "Designing functional and stylish office environments.",
+          image: "/assets/offi5.jpeg",
+       },
+        {
+          title: "Workstation",
+          description: "Designing functional and stylish office environments.",
+          image: "/assets/offi7.jpeg",
+       },
+        {
+          title: "Workstation",
+          description: "Designing functional and stylish office environments.",
+          image: "/assets/offi10.jpeg",
+       },
+     ],
+     ReceptionArea :[
+      {
+        title: "Fly Dubai ",
+        description: "Creating welcoming and professional reception spaces.",
+        image: "/assets/rec4.jpeg",
+      },
+      {
+        title: "Mapple bear ",
+        description: "Creating welcoming and professional reception spaces.",
+        image: "/assets/k10.jpeg",
+      },
+      {
+        title: "EGA",
+        description: "Creating welcoming and professional reception spaces.",
+        image: "/assets/rec5.jpeg",
+      },
+      {
+        title: "Trip.com",
+        description: "Creating welcoming and professional reception spaces.",
+        image: "/assets/offi8.jpeg",
+      },
+      // {
+      //   title: "Reception Area",
+      //   description: "Creating welcoming and professional reception spaces.",
+      //   image: "/assets/rec5.jpeg",
+      // },
+      // {
+      //   title: "Reception Area",
+      //   description: "Creating welcoming and professional reception spaces.",
+      //   image: "/assets/rec1.jpeg",
+      // },
+     
+     ],
+    ModernSpace: [
+    {
+      title: "Modern Space Top view",
+      description: "Visualizing spaces with advanced 3D modeling techniques.",
+      image: "/assets/mdrn3.jpeg",
+    },
+    {
+      title: "Modern Space Front view",
+      description: "Visualizing spaces with advanced 3D modeling techniques.",
+      image: "/assets/mdrn4.jpeg",
+    },
+    {
+      title: "Relaxation Space",
+      description: "Visualizing spaces with advanced 3D modeling techniques.",
+      image: "/assets/hom2.jpeg",
+    },
+    {
+      title: "Customer Lounge",
+      description: "Visualizing spaces with advanced 3D modeling techniques.",
+      image: "/assets/rec2.jpeg",
+    },
+     ],
+     Shop:[
+      {
+        title: "Shop Interior",
+        description: "Designing inviting and functional retail spaces.",
+        image: "/assets/shopint.jpeg",
+      },
+      {
+        title: "Shop Interior",
+        description: "Designing inviting and functional retail spaces.",
+        image: "/assets/shop1.jpeg",
+      },
+      {
+        title: "Shop Interior",
+        description: "Designing inviting and functional retail spaces.",
+        image: "/assets/shop2.jpeg",
+      },
+      {
+        title: "Shop Interior",
+        description: "Designing inviting and functional retail spaces.",
+        image: "/assets/shop3.jpeg",
+      },
+      {
+        title: "Shop Interior",
+        description: "Designing inviting and functional retail spaces.",
+        image: "/assets/shop4.jpeg",
+      },
+      {
+        title: "Shop Interior",
+        description: "Designing inviting and functional retail spaces.",
+        image: "/assets/shop5.jpeg",
+      },
+     ]
+  }
+;
