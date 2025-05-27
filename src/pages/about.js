@@ -5,7 +5,7 @@ import ClientsLogo from '@/components/ClientsLogo';
 import Footer from '@/components/Footer';
 import Services from '@/components/Services';
 import SeoHead from '@/components/SeoHead'; // 🛜 Add SEO
-// import img from 'next/image';
+import Image from 'next/image';
 import excellence from '../../public/assets/excelence.jpg';
 
 const About = () => {
@@ -20,9 +20,9 @@ const About = () => {
 
       <Navbar />
 
-      <section className="relative bg-white overflow-hidden">
+      <section className="relative bg-white overflow-hidden ">
         {/* Top Wave */}
-        <div className="absolute top-0 left-0 w-full">
+        <div className="absolute top-0 left-0 w-full ">
           <svg viewBox="0 0 1440 320" className="w-full h-auto rotate-360">
             <path
               fill="#F9FAEB"
@@ -38,7 +38,7 @@ const About = () => {
             
             {/* Image Section */}
             <div className="flex-shrink-0 hidden sm:block">
-              <img
+              <Image
                 src="/assets/excelence.jpg"
                 alt="17 Years of Excellence"
                 width={160}
@@ -70,10 +70,10 @@ const About = () => {
                   Since our establishment in 2006, Al Saif Decor has been committed to delivering quality, integrity, and innovation across every project we undertake. Our unwavering focus on excellence has earned us the trust of a broad and loyal client base, positioning us as a key player in the contracting and interior design industry across the United Arab Emirates.
                 </p>
                 <p>
-                  Over the years, our experience with major projects and partnerships has helped us master the intricacies of the business. We believe success is built on collaboration — that’s why we selectively build a team of skilled professionals who uphold our high standards in engineering and construction.
+                  Over the years, our experience with major projects and partnerships has helped us master the intricacies of the business. We believe success is built on collaboration — that&rsquo;s why we selectively build a team of skilled professionals who uphold our high standards in engineering and construction.
                 </p>
                 <p>
-                  At Al Saif Decor, we continuously evolve by integrating cutting-edge project management systems and delivering timely, tailored solutions to meet each client’s needs. We prioritize transparency, regular progress updates, and cost-effective service — ensuring customer satisfaction at every step.
+                  At Al Saif Decor, we continuously evolve by integrating cutting-edge project management systems and delivering timely, tailored solutions to meet each clients needs. We prioritize transparency, regular progress updates, and cost-effective service — ensuring customer satisfaction at every step.
                 </p>
                 <p>
                   Our employees are the heart of our company. Their dedication, expertise, and professionalism drive us forward. With a grounded approach and a clear vision, we believe the only direction is ahead. And for us, the most powerful endorsement is a happy customer.

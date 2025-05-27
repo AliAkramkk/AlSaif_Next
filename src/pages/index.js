@@ -1,27 +1,27 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
 
-import Navbar from '@/components/Navbar';
-import Clients from '@/components/Clients';
-import Alsaif from '@/components/Alsaif';
-import HomeProjects from '@/components/HomeProjects';
-import Highlight from '@/components/Highlight';
-import Footer from '@/components/Footer';
-import Services from '@/components/Services';
-import SeoHead from '@/components/SeoHead'; // 🛜 Added for SEO
+import Navbar from "@/components/Navbar";
+import Clients from "@/components/Clients";
+import Alsaif from "@/components/Alsaif";
+import HomeProjects from "@/components/HomeProjects";
+import Highlight from "@/components/Highlight";
+import Footer from "@/components/Footer";
+import Services from "@/components/Services";
+import SeoHead from "@/components/SeoHead"; // 🛜 Added for SEO
 
-import roomImg from '../../public/assets/hom1.jpg';
-import excellence from '../../public/assets/excelence.jpg';
+import roomImg from "../../public/assets/hom1.jpg";
+import excellence from "../../public/assets/excelence.jpg";
 
 export default function HomePage() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <>
-      <SeoHead 
+      <SeoHead
         title="Al Saif Decor | Office Interior Design, Structure Work & Fit-Out Solutions in UAE"
         description="Transform your workspace with Al Saif Decor. We specialize in office interior design, complete structure work, and fit-out services across the UAE. Quality, innovation, and excellence since 2006."
         keywords="Office Interior Design, Structure Work, Office Fit-Out UAE, Commercial Interiors, Al Saif Decor, Office Renovation, Interior Contractors UAE"
@@ -32,7 +32,6 @@ export default function HomePage() {
 
       <div className="min-h-screen flex items-center justify-center px-4 md:px-20 py-16 md:-mt-16">
         <div className="grid md:grid-cols-2 items-center gap-10">
-          
           {/* Left Content */}
           <div>
             <h1 className="text-4xl md:text-6xl font-semibold leading-tight text-gray-900 mt-4">
@@ -40,9 +39,11 @@ export default function HomePage() {
               <span className="text-black font-bold">Al Saif Decor</span>
             </h1>
             <p className="text-gray-600 mt-6 text-lg md:w-3/4">
-              A well-designed space is more than just visual appeal — it's where comfort meets creativity.
-              Whether you're structuring a new office or upgrading interiors, Al Saif Decor brings vision to life 
-              through thoughtful design, quality craftsmanship, and excellence built over 17 years.
+              A well-designed space is more than just visual appeal — it&apos;s
+              where comfort meets creativity. Whether you&apos;re structuring a
+              new office or upgrading interiors, Al Saif Decor brings vision to
+              life through thoughtful design, quality craftsmanship, and
+              excellence built over 17 years.
             </p>
 
             <Link href="/contact">

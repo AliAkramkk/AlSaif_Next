@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar */}
-      <nav className="sticky w-full px-6 py-4 items-center justify-between border-b z-20 bg-white md:mt-10">
+      <nav className="sticky w-full px-6 py-4 items-center justify-between border-b z-20 bg-white ">
         {/* Left - Logo and Toggle */}
         <div className="md:flex-none max-sm:flex justify-between items-center">
           <div className="text-lg md:text-3xl tracking-widest font-thin text-left md:text-center">
