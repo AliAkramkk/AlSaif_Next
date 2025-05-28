@@ -70,7 +70,7 @@ export const homeProjects = [
     // subtitle:
     //   "Design a cozy, clean, and family-friendly living room that blends comfort, style, and functionality perfectly.",
     number: "04",
-    image: "/assets/K2.jpEg",
+    image: "/assets/K2.jpeg",
   },
 
   
@@ -202,7 +202,7 @@ export const categoryData =
        {
           title: "Workstation",
           description: "Designing functional and stylish office environments.",
-          image: "/assets/offI1.jpeg",
+          image: "/assets/offi1.jpeg",
         },
         {
           title: "Smart Cabin",
