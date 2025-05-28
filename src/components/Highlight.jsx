@@ -13,18 +13,18 @@ const Highlight = () => {
         <div className="text-xl md:text-3xl font-mono md:w-2/3 flex flex-col">
           <h1>
             From Structure to Design We are here to help you with your dream
-            project.
+            project
           </h1>
           <div className="flex md:flex-row items-center justify-between mt-4 font-light">
             <p className="text-xs md:text-sm font-extralight p-3">
-              Whether you're building from the ground up or refreshing an
-              existing space, our team blends creativity with precision to
-              deliver results that reflect your style and needs.
+              Whether you are building from the ground up or refreshing an
+              existing space  our team blends creativity with precision to
+              deliver results that reflect your style and needs
             </p>
             <p className="text-xs md:text-sm font-extralight">
-              We handle everything from structure to interior detailing,
-              ensuring your journey is smooth, collaborative, and driven by
-              quality craftsmanship every step of the way.
+              We handle everything from structure to interior detailing
+              ensuring your journey is smooth collaborative and driven by
+              quality craftsmanship every step of the way
             </p>
           </div>
         </div>
