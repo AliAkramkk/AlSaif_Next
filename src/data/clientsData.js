@@ -40,25 +40,34 @@ export const homeProjects = [
     id: 1,
     title: " MODERN KITCHEN INTERIOR",
     subtitle:
-      "Create a modern office space that enhances productivity and reflects your brand identity.",
+      "Design a cozy, clean, and family-friendly kitchen that blends comfort, style, and functionality perfectly.",
     // subtitle:
-    //   "Transform your kitchen into a modern, functional space with our custom design and professional installation services.",
+      // "Transform your kitchen into a modern, functional space with our custom design and professional installation services.",
     number: "01",
     image: "/assets/k1.jpeg",
   },
   {
     id: 2,
-    title: " MODULAR OFFICE SETUP FOR SMART WORKSPACES",
+    title: " MODULAR OFFICE SETUP FOR SMART WORKSPACE",
     subtitle:
-      "Create an inviting shopping experience with stylish, efficient shop interiors designed to boost your brand and customer comfort",
+      "Upgrade your workspace with modular office solutions that balance aesthetics, productivity, and employee well-being",
+   
+    // subtitle:
+
+    //   "Create an inviting shopping experience with stylish, efficient shop interiors designed to boost your brand and customer comfort",
     number: "02",
     image: "/assets/mdlr2.jpeg",
   },
   {
     id: 3,
-    title: "SHOP INTERIOR",
-    subtitle:
-      "Upgrade your workspace with modular office solutions that balance aesthetics, productivity, and employee well-being",
+  title: "SHOP INTERIOR DESIGN",
+ subtitle:
+    "Create an inviting shopping experience with stylish, efficient shop interiors designed to boost your brand and customer comfort",
+
+  
+
+
+    
     number: "03",
     image: "/assets/shopint.jpeg",
   },
