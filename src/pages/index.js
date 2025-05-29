@@ -34,7 +34,7 @@ export default function HomePage() {
         <div className="grid md:grid-cols-2 items-center gap-10">
           {/* Left Content */}
           <div>
-            <h1 className="text-4xl md:text-6xl font-semibold leading-tight text-gray-900 mt-4">
+            <h1 className="text-4xl md:text-6xl font-semibold leading-tight text-gray-900 md:mt-4">
               Transform Your Workspace with <br />
               <span className="text-black font-bold">Al Saif Decor</span>
             </h1>

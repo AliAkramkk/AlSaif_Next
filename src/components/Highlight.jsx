@@ -32,7 +32,7 @@ const Highlight = () => {
       <div className="flex flex-col md:flex-row gap-3 py-6 px-6">
         <div className="flex flex-col gap-4">
           <img
-            src="/assets/hom3.jpeg"
+            src="/assets/flyrec.jpeg"
             alt="Interior design project"
             className="object-fit "
             width={450}
@@ -46,9 +46,9 @@ const Highlight = () => {
             height={710}
           /> */}
         <img
-  src="/assets/hom2.jpeg"
+  src="/assets/fly1.jpg"
   alt="Interior design project"
-  className="object-fill md:h-[278px]"
+  className="object-fill md:h-[225px]"
   width={450}
   height={450}
 />

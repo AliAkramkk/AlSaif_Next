@@ -70,7 +70,7 @@ export const homeProjects = [
     // subtitle:
     //   "Design a cozy, clean, and family-friendly living room that blends comfort, style, and functionality perfectly.",
     number: "04",
-    image: "/assets/K2.jpeg",
+    image: "/assets/k2.jpeg",
   },
 
   
@@ -90,7 +90,7 @@ export const portfolio = [
   {
     id: 3,
     title: "Reception Area",
-    image: "/assets/rec4.jpeg",
+    image: "/assets/flyrec.jpeg",
   },
  
   {
@@ -133,14 +133,14 @@ export const categoryData =
   {
     All: [
       {
-        title: "Modular Recption Area",
+        title: "Recption Area",
         description: "Creating welcoming and professional reception spaces.",
         image: "/assets/rec5.jpeg",
       },
       {
-        title: "Modular Office Setup",
+        title: " Office Setup",
         description: "Creating flexible and efficient office environments.",
-        image: "/assets/hom3.jpeg",
+        image: "/assets/tripwork3.jpeg",
       },
       {
         title: "Kindergarten",
@@ -157,13 +157,13 @@ export const categoryData =
       {
         title: "Office Space",
         description: "Creating flexible and efficient office environments.",
-        image: "/assets/offi11.jpeg",
+        image: "/assets/tripwork2.jpeg",
       },
       {
         title: "Custom Interior Design",
         description: "Designing unique and personalized interior spaces.",
        
-        image: "/assets/rec3.jpeg",
+        image: "/assets/fly1.jpg",
       },
     ],
      kindergarten: [
@@ -215,26 +215,26 @@ export const categoryData =
           image: "/assets/offi4.jpeg",
        },
         {
-          title: "Modern Office Space",
+          title: "Mini Meeting Space",
           description: "Designing functional and stylish office environments.",
-          image: "/assets/offi5.jpeg",
+          image: "/assets/tripwork4.jpeg",
        },
         {
           title: "Workstation",
           description: "Designing functional and stylish office environments.",
-          image: "/assets/offi7.jpeg",
+          image: "/assets/tripwork2.jpeg",
        },
         {
           title: "Workstation",
           description: "Designing functional and stylish office environments.",
-          image: "/assets/offi10.jpeg",
+          image: "/assets/tripwork3.jpeg",
        },
      ],
      ReceptionArea :[
       {
         title: "Fly Dubai ",
         description: "Creating welcoming and professional reception spaces.",
-        image: "/assets/rec4.jpeg",
+        image: "/assets/flyrec.jpeg",
       },
       {
         title: "Mapple bear ",
@@ -282,7 +282,7 @@ export const categoryData =
     {
       title: "Customer Lounge",
       description: "Visualizing spaces with advanced 3D modeling techniques.",
-      image: "/assets/rec2.jpeg",
+      image: "/assets/custmrlong.jpeg",
     },
      ],
      Shop:[

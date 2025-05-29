@@ -23,12 +23,12 @@ const Portfolio = () => {
       <section className="px-6 py-12 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div>
-            <div className="md:w-1/3">
+            <div className="md:w-2/3">
               <h1 className="text-xl md:text-2xl md:text-start font-mono mt-4 px-2 text-gray-600">
                 Portfolio
               </h1>
-              <hr className="hidden md:block border-t-2 border-gray-500 md:w-1/4 w-1/2 md:-mt-1 ml-1" />
-              <h2 className="text-3xl font-mono text-gray-800 mt-2">
+              <hr className="hidden md:block border-t-2 border-gray-500 md:w-1/3 w-1/2 md:-mt-1 ml-1" />
+              <h2 className="text-2xl font-mono text-gray-800 mt-2 ">
                 Our Creations Speak for Themselves
               </h2>
               <p className="text-gray-600 mt-2 mb-6 max-w-xl font-mono">
