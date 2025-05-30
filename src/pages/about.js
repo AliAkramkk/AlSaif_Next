@@ -49,13 +49,13 @@ const About = () => {
             </div>
 
             {/* Text Section */}
-            <div className="text-gray-700 max-w-3xl">
+            <div className="text-gray-700 max-w-3xl font-light ">
               <h2 className="text-2xl sm:text-3xl font-mono text-black mb-4 sm:mb-6">
                 Shape Your Space with Al Saif Decor
               </h2>
 
               {/* Short version for small screens */}
-              <div className="block md:hidden text-sm space-y-3">
+              <div className="block md:hidden text-sm space-y-3 font-light">
                 <p>
                   Since 2006 Al Saif Decor has delivered quality and innovation across UAE interior design projects
                 </p>
@@ -65,7 +65,7 @@ const About = () => {
               </div>
 
               {/* Full version for medium and larger screens */}
-              <div className="hidden md:block space-y-4">
+              <div className="hidden md:block space-y-4 font-light">
                 <p>
                   Since our establishment in 2006  Al Saif Decor has been committed to delivering quality  integrity  and innovation across every project we undertake Our unwavering focus on excellence has earned us the trust of a broad and loyal client base positioning us as a key player in the contracting and interior design industry across the United Arab Emirates
                 </p>

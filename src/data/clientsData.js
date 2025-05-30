@@ -44,7 +44,7 @@ export const homeProjects = [
     // subtitle:
       // "Transform your kitchen into a modern, functional space with our custom design and professional installation services.",
     number: "01",
-    image: "/assets/k1.jpeg",
+    image: "/assets/alsaif2.jpeg",
   },
   {
     id: 2,
@@ -69,7 +69,7 @@ export const homeProjects = [
 
     
     number: "03",
-    image: "/assets/shopint.jpeg",
+    image: "/assets/alsaif1.jpeg",
   },
   {
     id: 5,
@@ -105,7 +105,7 @@ export const portfolio = [
   {
     id: 4,
     title: "Custom Interior Design",
-    image: "/assets/k4.jpeg",
+    image: "/assets/alsaif4.jpeg",
   },
   {
     id: 5,
@@ -135,6 +135,7 @@ export const categories = [
   { key: "OfficeSpace", title: "Office Space" },
   { key: "ReceptionArea", title: "Reception Area" },
   { key: "ModernSpace", title: "Modern Space" },
+  // { key: "Shop", title: "Shop" },
 ];
 
 
@@ -147,9 +148,9 @@ export const categoryData =
         image: "/assets/rec5.jpeg",
       },
       {
-        title: " Office Setup",
+        title: " Home Interior",
         description: "Creating flexible and efficient office environments.",
-        image: "/assets/tripwork3.jpeg",
+        image: "/assets/alsaif3.jpeg",
       },
       {
         title: "Kindergarten",
@@ -158,10 +159,11 @@ export const categoryData =
         image: "/assets/k12.jpeg",
       },
       {
-        title: "Outdoor Space",
-        description: "Designing beautiful and functional outdoor spaces.",
+        title: "Kitchen Interior",
+        description: "Designing modern and functional kitchen spaces.",
+        // description: "Designing beautiful and functional outdoor spaces.",
       
-        image: "/assets/out1.jpeg",
+        image: "/assets/alsaif2.jpeg",
       },
       {
         title: "Office Space",
@@ -172,7 +174,7 @@ export const categoryData =
         title: "Custom Interior Design",
         description: "Designing unique and personalized interior spaces.",
        
-        image: "/assets/fly1.jpg",
+        image: "/assets/alsaif4.jpeg",
       },
     ],
      kindergarten: [
@@ -256,9 +258,9 @@ export const categoryData =
         image: "/assets/rec5.jpeg",
       },
       {
-        title: "Trip.com",
+        title: "logo",
         description: "Creating welcoming and professional reception spaces.",
-        image: "/assets/offi8.jpeg",
+        image: "/assets/alsaif1.jpeg",
       },
       // {
       //   title: "Reception Area",
@@ -284,9 +286,9 @@ export const categoryData =
       image: "/assets/mdrn4.jpeg",
     },
     {
-      title: "Relaxation Space",
+      title: "Dining Area",
       description: "Visualizing spaces with advanced 3D modeling techniques.",
-      image: "/assets/hom2.jpeg",
+      image: "/assets/alsaif6.jpeg",
     },
     {
       title: "Customer Lounge",
@@ -298,7 +300,7 @@ export const categoryData =
       {
         title: "Shop Interior",
         description: "Designing inviting and functional retail spaces.",
-        image: "/assets/shopint.jpeg",
+        image: "/assets/alsaif1.jpeg",
       },
       {
         title: "Shop Interior",

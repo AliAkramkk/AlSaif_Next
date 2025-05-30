@@ -20,7 +20,7 @@ const Alsaif = () => {
           <p class="mt-2 text-3xl text-gray-700 dark:text-gray-300  ">
             17 Years of Excellence
           </p>
-          <p className="mt-1 text-sm leading-relaxed text-balance text-gray-500 max-h-[200px] overflow-hidden md:max-h-none">
+          <p className="mt-1 text-sm leading-relaxed text-balance text-gray-800 max-h-[200px] overflow-hidden font-light md:max-h-none">
             Founded in 2006 Al Saif Decor has proudly established itself as a
             trusted name in the United Arab Emirates contracting and interior
             solutions industry With over 17 years of dedicated service we have

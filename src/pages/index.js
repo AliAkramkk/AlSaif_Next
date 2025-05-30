@@ -14,7 +14,7 @@ import Services from "@/components/Services";
 import SeoHead from "@/components/SeoHead"; // 🛜 Added for SEO
 
 import roomImg from "../../public/assets/hom1.jpg";
-import excellence from "../../public/assets/excelence.jpg";
+import excellence from "../../public/assets/allogo.png";
 
 export default function HomePage() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,15 +30,15 @@ export default function HomePage() {
 
       <Navbar />
 
-      <div className="min-h-screen flex items-center justify-center px-4 md:px-20 py-16 md:-mt-16">
+      <div className="min-h-screen flex items-center justify-center px-4 md:px-20 py-16 lg:-mt-16">
         <div className="grid md:grid-cols-2 items-center gap-10">
           {/* Left Content */}
           <div>
-            <h1 className="text-4xl md:text-6xl font-semibold leading-tight text-gray-900 md:mt-4">
+            <h1 className="text-4xl md:text-6xl font-mono leading-tight text-gray-900 md:mt-4">
               Transform Your Workspace with <br />
-              <span className="text-black font-bold">Al Saif Decor</span>
+              <span className="  font-playpen text-blue-800">Al <span className="text-gold"> Saif Dec</span>or</span>
             </h1>
-            <p className="text-gray-600 mt-6 text-lg md:w-3/4">
+            <p className="text-gray-800 mt-6 font-light text-lg md:w-3/4">
               A well designed space is more than just visual appeal  it is
               where comfort meets creativity  Whether you are structuring a
               new office or upgrading interiors Al Saif Decor brings vision to
@@ -48,7 +48,7 @@ export default function HomePage() {
 
             <Link href="/contact">
               <button className="relative overflow-hidden px-4 py-2 mt-5 rounded-md text-sm tracking-widest flex items-center gap-2 group border">
-                <span className="relative z-10 text-black group-hover:text-white transition-colors duration-300">
+                <span className="relative  z-10 text-black group-hover:text-white transition-colors duration-300">
                   EXPLORE NOW
                 </span>
                 <span className="text-2xl relative z-10 text-black group-hover:text-white transition-colors duration-300">
@@ -62,8 +62,8 @@ export default function HomePage() {
               <Image
                 src={excellence}
                 alt="17 Years of Excellence at Al Saif Decor"
-                width={300}
-                height={300}
+                width={200}
+                height={200}
                 className="slow-bounce "
                 priority
               />

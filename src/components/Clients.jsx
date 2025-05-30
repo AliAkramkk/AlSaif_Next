@@ -37,7 +37,7 @@ const Clients = () => {
         <div
           className="flex space-x-10 w-max hover:animate-none"
           style={{
-            animation: 'slideLeft 40s linear infinite ',
+            animation: 'slideLeft 140s linear infinite ',
           }}
         >
           {allClients.map((client, index) => (
@@ -56,7 +56,7 @@ const Clients = () => {
         <div
           className="flex space-x-10 w-max slider"
           style={{
-            animation: 'slideRight 20s linear infinite',
+            animation: 'slideRight 70s linear infinite',
           }}
         >
           {allClients.map((client, index) => (

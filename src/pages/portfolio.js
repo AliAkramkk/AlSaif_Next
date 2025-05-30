@@ -15,7 +15,7 @@ const Portfolio = () => {
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
   };
-  console.log("categoryData", categoryData[selectedCategory]);
+  // console.log("categoryData", categoryData[selectedCategory]);
   return (
     <>
       <Navbar />
@@ -37,15 +37,15 @@ const Portfolio = () => {
               </p>
             </div>
 
-            <div className="grid gap-6 lg:grid-cols-3">
+            <div className="grid gap-6 lg:grid-cols-3 ">
               {/* Featured project */}
-              <div className="lg:col-span-2">
+              <div className="lg:col-span-2 ">
                 <Image
                   src={portfolio[1].image}
                   alt={portfolio[1].title}
                   width={1000}
                   height={450}
-                  className="w-full md:h-[450px] object-cover"
+                  className="w-full md:h-[450px] object-cover "
                 />
                 <p className="mt-2 text-lg font-medium text-gray-700">
                   {portfolio[1].title}
@@ -53,7 +53,7 @@ const Portfolio = () => {
               </div>
 
               {/* Side images */}
-              <div className="flex flex-col gap-6 md:-mt-36">
+              <div className="flex flex-col gap-6 ">
                 {[portfolio[0], portfolio[2]].map((item, idx) => (
                   <div key={idx}>
                     <Image
@@ -61,7 +61,7 @@ const Portfolio = () => {
                       alt={item.title}
                       width={600}
                       height={350}
-                      className="w-full h-36 object-cover md:h-[350px]"
+                      className="w-full h-36 object-cover md:h-[400px] "
                     />
                     <p className="mt-2 text-lg font-medium text-gray-700">
                       {item.title}
@@ -71,15 +71,15 @@ const Portfolio = () => {
               </div>
 
               {/* Bottom images */}
-              <div className="flex lg:col-span-2 md:w-full gap-6 md:-mt-34">
+              <div className="flex lg:col-span-2 md:w-full gap-6 md:-mt-11 ">
                 {[portfolio[3], portfolio[4]].map((item, idx) => (
-                  <div key={idx}>
+                  <div key={idx} >
                     <Image
                       src={item.image}
                       alt={item.title}
                       width={800}
                       height={350}
-                      className="w-full h-72 object-cover md:h-[350px] md:w-auto md:-mt-12"
+                      className="w-full h-72 object-cover md:h-[350px] md:w-auto md:-mt-92 "
                     />
                     <p className="mt-2 text-lg font-medium text-gray-700">
                       {item.title}
@@ -109,7 +109,7 @@ const Portfolio = () => {
           {portfolioDetail.map((step, index) => (
             <div
               key={index}
-              className="p-6 shadow-inner hover:shadow-lg hover:scale-105 duration-300 bg-no-repeat bg-center bg-contain"
+              className="p-6 hover:shadow-inner shadow-lg scale-105 duration-300 bg-no-repeat bg-center bg-contain border-2  border-dotted odd:border-blue-500 even:border-yellow-600 "
               style={{
                 backgroundImage: `url('/assets/logo.png')`,
                 backgroundColor: "rgba(255,255,255,0.5)", // optional light background
@@ -174,14 +174,14 @@ const Portfolio = () => {
                 {(categoryData[selectedCategory] || []).map((item, index) => (
                   <div
                     key={index}
-                    className="bg-white   overflow-hidden lg:even:mt-10 lg:odd:mb-10"
+                    className="bg-white   overflow-hidden lg:even:mt-10 lg:odd:mb-10 "
                   >
                     <Image
                       src={item.image}
                       alt={item.title}
                       width={600}
                       height={208}
-                      className="w-full h-52 object-cover"
+                      className="w-full h-52 object-contain md:h-72 lg:h-80 lg:object-cover"
                     />
                     <div className="p-4">
                       <h3 className="text-lg font-semibold">{item.title}</h3>
