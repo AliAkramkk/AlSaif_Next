@@ -90,17 +90,17 @@ export default function HomePage() {
               </span>
             </h1>
 
-            <p className="text-gray-800 mt-6 font-light text-lg md:w-3/4">
-              A well-designed space is more than just visual appeal — it is
-              where comfort meets creativity. Whether you're structuring a new
-              office or upgrading interiors, Al Saif Decor brings vision to life
-              through thoughtful design, quality craftsmanship, and excellence
-              built over 17 years.
+           <p className="text-gray-800 mt-6 font-light text-lg md:w-3/4">
+              A well designed space is more than just visual appeal  it is
+              where comfort meets creativity  Whether you are structuring a
+              new office or upgrading interiors Al Saif Decor brings vision to
+              life through thoughtful design quality craftsmanship and
+              excellence built over 17 years
             </p>
 
             <Link href="/contact">
               <button className="relative overflow-hidden px-4 py-2 mt-5 rounded-md text-sm tracking-widest flex items-center gap-2 group border">
-                <span className="relative z-10 text-black group-hover:text-white transition-colors duration-300">
+                <span className="relative  z-10 text-black group-hover:text-white transition-colors duration-300">
                   EXPLORE NOW
                 </span>
                 <span className="text-2xl relative z-10 text-black group-hover:text-white transition-colors duration-300">
@@ -116,7 +116,7 @@ export default function HomePage() {
                 alt="17 Years of Excellence at Al Saif Decor"
                 width={200}
                 height={200}
-                className="slow-bounce"
+                className="slow-bounce "
                 priority
               />
             </div>
