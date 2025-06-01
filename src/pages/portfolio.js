@@ -170,11 +170,11 @@ const Portfolio = () => {
                 <h1 className="text-2xl font-bold"></h1>
                 {/* <button className="bg-black text-white text-xs font-thin px-10 py-1 rounded-full">VIEW ALL <br /> PRODUCTS</button> */}
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-0 lg:mt-10">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 lg:mt-10">
                 {(categoryData[selectedCategory] || []).map((item, index) => (
                   <div
                     key={index}
-                    className="bg-white   overflow-hidden lg:even:mt-10 lg:odd:mb-10 "
+                    className="bg-white   overflow-hidden  lg:odd:mb-10 "
                   >
                     <Image
                       src={item.image}

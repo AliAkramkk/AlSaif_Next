@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-
+import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Clients from "@/components/Clients";
 import Alsaif from "@/components/Alsaif";
@@ -11,10 +11,25 @@ import HomeProjects from "@/components/HomeProjects";
 import Highlight from "@/components/Highlight";
 import Footer from "@/components/Footer";
 import Services from "@/components/Services";
-import SeoHead from "@/components/SeoHead"; // 🛜 Added for SEO
+import SeoHead from "@/components/SeoHead";
 
 import roomImg from "../../public/assets/hom1.jpg";
 import excellence from "../../public/assets/allogo.png";
+
+// Animation config outside render
+const fadeInFromLeft = {
+  hidden: { x: -50, opacity: 0 },
+  visible: (i) => ({
+    x: 0,
+    opacity: 1,
+    transition: {
+      delay: i * 0.05,
+      type: "spring",
+      stiffness: 300,
+      damping: 20,
+    },
+  }),
+};
 
 export default function HomePage() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -34,21 +49,58 @@ export default function HomePage() {
         <div className="grid md:grid-cols-2 items-center gap-10">
           {/* Left Content */}
           <div>
-            <h1 className="text-4xl md:text-6xl font-mono leading-tight text-gray-900 md:mt-4">
-              Transform Your Workspace with <br />
-              <span className="  font-playpen text-blue-800">Al <span className="text-gold"> Saif Dec</span>or</span>
+            <h1 className="text-4xl md:text-6xl font-light leading-tight text-gray-900">    Transform Your Workspace with <br />
+              <span className="font-playpen text-[27px] md:text-[62px] flex flex-wrap">
+                {"Al".split("").map((char, i) => (
+                  <motion.span
+                    key={`al-${i}`}
+                    custom={i}
+                    variants={fadeInFromLeft}
+                    initial="hidden"
+                    animate="visible"
+                    className="text-blue-800 border-2 border-dotted border-blue-800 px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#3b82f6]"
+                  >
+                    {char}
+                  </motion.span>
+                ))}{" "}
+                {"SaifDec".split("").map((char, i) => (
+                  <motion.span
+                    key={`saif-${i}`}
+                    custom={i + 2}
+                    variants={fadeInFromLeft}
+                    initial="hidden"
+                    animate="visible"
+                    className="text-gold border-2 border-dotted border-gold px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#FFD700]"
+                  >
+                    {char}
+                  </motion.span>
+                ))}{" "}
+                {"or".split("").map((char, i) => (
+                  <motion.span
+                    key={`or-${i}`}
+                    custom={i + 11}
+                    variants={fadeInFromLeft}
+                    initial="hidden"
+                    animate="visible"
+                    className="text-blue-800 border-2 border-dotted border-blue-800 px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#3b82f6]"
+                  >
+                    {char}
+                  </motion.span>
+                ))}
+              </span>
             </h1>
+
             <p className="text-gray-800 mt-6 font-light text-lg md:w-3/4">
-              A well designed space is more than just visual appeal  it is
-              where comfort meets creativity  Whether you are structuring a
-              new office or upgrading interiors Al Saif Decor brings vision to
-              life through thoughtful design quality craftsmanship and
-              excellence built over 17 years
+              A well-designed space is more than just visual appeal — it is
+              where comfort meets creativity. Whether you're structuring a new
+              office or upgrading interiors, Al Saif Decor brings vision to life
+              through thoughtful design, quality craftsmanship, and excellence
+              built over 17 years.
             </p>
 
             <Link href="/contact">
               <button className="relative overflow-hidden px-4 py-2 mt-5 rounded-md text-sm tracking-widest flex items-center gap-2 group border">
-                <span className="relative  z-10 text-black group-hover:text-white transition-colors duration-300">
+                <span className="relative z-10 text-black group-hover:text-white transition-colors duration-300">
                   EXPLORE NOW
                 </span>
                 <span className="text-2xl relative z-10 text-black group-hover:text-white transition-colors duration-300">
@@ -64,7 +116,7 @@ export default function HomePage() {
                 alt="17 Years of Excellence at Al Saif Decor"
                 width={200}
                 height={200}
-                className="slow-bounce "
+                className="slow-bounce"
                 priority
               />
             </div>

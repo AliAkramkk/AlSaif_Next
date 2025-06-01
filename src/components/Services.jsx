@@ -6,12 +6,12 @@ const Services = () => {
       <div className="font-thin text-xs px-5 mt-5 p-3">S E R V I C E S</div>
 
       <div className="flex items-center justify-between mb-5">
-        <div className="font-semibold px-5 text-black text-4xl">
+        <div className="font-semibold px-5 text-black md:text-4xl">
           We Deliver Excellence in Every Detail
         </div>
         <div className="ml-auto px-5">
           <a href="/portfolio">
-            <button className="relative overflow-hidden px-4 py-2 rounded-full text-sm tracking-widest flex items-center gap-2 group border">
+            <button className="relative overflow-hidden px-4 py-2 rounded-full text-xs md:text-sm tracking-widest flex items-center gap-2 group border">
               <span className="relative z-10 text-black group-hover:text-white transition-colors duration-300">
                 View Our Portfolio
               </span>

@@ -7,7 +7,7 @@ const Highlight = () => {
   return (
     <>
       <div className="flex md:flex-row flex-col gap-3 py-6 px-6">
-        <div className="text-xl md:text-3xl font-mono md:w-1/3">
+        <div className="text-xl md:text-3xl font- md:mono w-1/3">
           We Convert It as per Your Dream
         </div>
         <div className="text-xl md:text-3xl font-mono md:w-2/3 flex flex-col">
