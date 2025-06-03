@@ -1,5 +1,5 @@
 import React from 'react';
-import clients from '../data/clientsData';
+import {corporateClients} from '../data/clientsData';
 
 const ClientsLogo = () => {
   return (
@@ -12,12 +12,12 @@ const ClientsLogo = () => {
 </div>
 
       <div className="grid grid-cols-3 md:grid-cols-6 gap-4">
-        {clients.map((client, index) => (
+        {corporateClients.map((client, index) => (
           <div key={index} className="flex justify-center items-center p-4">
             <img
               src={client.logo}
               alt={`${client.name} logo`}
-              className="h-14 opacity-70"
+              className="h-[58px] opacity-70"
             />
           </div>
         ))}

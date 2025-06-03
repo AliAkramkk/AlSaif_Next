@@ -50,44 +50,64 @@ export default function HomePage() {
           {/* Left Content */}
           <div>
             <h1 className="text-4xl md:text-6xl font-light leading-tight text-gray-900">    Transform Your Workspace with <br />
-              <span className="font-playpen text-[27px] md:text-[62px] flex flex-wrap">
-                {"Al".split("").map((char, i) => (
-                  <motion.span
-                    key={`al-${i}`}
-                    custom={i}
-                    variants={fadeInFromLeft}
-                    initial="hidden"
-                    animate="visible"
-                    className="text-blue-800 border-2 border-dotted border-blue-800 px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#3b82f6]"
-                  >
-                    {char}
-                  </motion.span>
-                ))}{" "}
-                {"SaifDec".split("").map((char, i) => (
-                  <motion.span
-                    key={`saif-${i}`}
-                    custom={i + 2}
-                    variants={fadeInFromLeft}
-                    initial="hidden"
-                    animate="visible"
-                    className="text-gold border-2 border-dotted border-gold px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#FFD700]"
-                  >
-                    {char}
-                  </motion.span>
-                ))}{" "}
-                {"or".split("").map((char, i) => (
-                  <motion.span
-                    key={`or-${i}`}
-                    custom={i + 11}
-                    variants={fadeInFromLeft}
-                    initial="hidden"
-                    animate="visible"
-                    className="text-blue-800 border-2 border-dotted border-blue-800 px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#3b82f6]"
-                  >
-                    {char}
-                  </motion.span>
-                ))}
-              </span>
+               <span className="inline-block font-mono text-[20px] lg:text-[55px]">
+    {"Al".split("").map((char, i) => (
+      <motion.span
+        key={`al-${i}`}
+        custom={i}
+        variants={fadeInFromLeft}
+        initial="hidden"
+        animate="visible"
+        className="text-blue-800 border border-dotted border-blue-800 px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#3b82f6]"
+      >
+        {char}
+      </motion.span>
+    ))}
+
+    {/* Space between Al and Saif */}
+    <span className="inline-block w-[6px]" />
+
+    {"Saif".split("").map((char, i) => (
+      <motion.span
+        key={`saif-${i}`}
+        custom={i + 2}
+        variants={fadeInFromLeft}
+        initial="hidden"
+        animate="visible"
+        className="text-gold border border-dotted border-gold px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#FFD700]"
+      >
+        {char}
+      </motion.span>
+    ))}
+
+    {/* Space between Saif and Decor */}
+    <span className="inline-block w-[6px]" />
+
+    {"Dec".split("").map((char, i) => (
+      <motion.span
+        key={`dec-${i}`}
+        custom={i + 7}
+        variants={fadeInFromLeft}
+        initial="hidden"
+        animate="visible"
+        className="text-gold border border-dotted border-gold px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#FFD700]"
+      >
+        {char}
+      </motion.span>
+    ))}
+     {"or".split("").map((char, i) => (
+      <motion.span
+        key={`or-${i}`}
+        custom={i + 11}
+        variants={fadeInFromLeft}
+        initial="hidden"
+        animate="visible"
+        className="text-blue-800 border border-dotted border-blue-800 px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#3b82f6]"
+      >
+        {char}
+      </motion.span>
+    ))}
+  </span>
             </h1>
 
            <p className="text-gray-800 mt-6 font-light text-lg md:w-3/4">
