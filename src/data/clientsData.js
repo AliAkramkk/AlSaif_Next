@@ -115,7 +115,7 @@ export const homeProjects = [
 export const portfolio = [
   {
     id: 1,
-    title: "Modular Office Setup",
+    title: "Kiosk Design",
     image: "/assets/mdrn3.jpeg",
   },
    {
@@ -303,12 +303,12 @@ export const categoryData =
      ],
     ModernSpace: [
     {
-      title: "Modern Space Top view",
+      title: "Kiosk Design Top view",
       description: "Visualizing spaces with advanced 3D modeling techniques.",
       image: "/assets/mdrn3.jpeg",
     },
     {
-      title: "Modern Space Front view",
+      title: "Kiosk Design Front view",
       description: "Visualizing spaces with advanced 3D modeling techniques.",
       image: "/assets/mdrn4.jpeg",
     },

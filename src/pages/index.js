@@ -58,7 +58,7 @@ export default function HomePage() {
         variants={fadeInFromLeft}
         initial="hidden"
         animate="visible"
-        className="text-blue-800 border border-dotted border-blue-800 px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#3b82f6]"
+        className="text-black border border-dotted border-blue-800 px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#3b82f6]"
       >
         {char}
       </motion.span>
@@ -74,7 +74,7 @@ export default function HomePage() {
         variants={fadeInFromLeft}
         initial="hidden"
         animate="visible"
-        className="text-gold border border-dotted border-gold px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#FFD700]"
+        className="text-black border border-dotted border-gold px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#FFD700]"
       >
         {char}
       </motion.span>
@@ -90,7 +90,7 @@ export default function HomePage() {
         variants={fadeInFromLeft}
         initial="hidden"
         animate="visible"
-        className="text-gold border border-dotted border-gold px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#FFD700]"
+        className="text-black border border-dotted border-gold px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#FFD700]"
       >
         {char}
       </motion.span>
@@ -102,7 +102,7 @@ export default function HomePage() {
         variants={fadeInFromLeft}
         initial="hidden"
         animate="visible"
-        className="text-blue-800 border border-dotted border-blue-800 px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#3b82f6]"
+        className="text-black border border-dotted border-blue-800 px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#3b82f6]"
       >
         {char}
       </motion.span>

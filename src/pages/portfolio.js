@@ -109,7 +109,7 @@ const Portfolio = () => {
           {portfolioDetail.map((step, index) => (
             <div
               key={index}
-              className="p-6 hover:shadow-inner shadow-lg scale-105 duration-300 bg-no-repeat bg-center bg-contain border-2  border-dotted odd:border-blue-500 even:border-yellow-600 "
+              className="p-6 hover:shadow-inner shadow-lg scale-105 duration-300 bg-no-repeat bg-center bg-contain   border-dotted odd:border-black even:border-black "
               style={{
                 backgroundImage: `url('/assets/logo.png')`,
                 backgroundColor: "rgba(255,255,255,0.5)", // optional light background
@@ -139,13 +139,14 @@ const Portfolio = () => {
             <span className="font-mono">Al Saif</span>
           </h1>
         </div>
-        <div className="m-8 ">
-          <div className="flex flex-col md:flex-row min-h-screen bg-white m-5 lg:m-10 ">
-            {/* Sidebar */}
-            <div className="hidden  md:flex md:flex-col  w-full md:w-1/4 p-4 lg:mt-20  h-fit ">
-              <h2 className="text-sm font-thin mb-4">
+        <div className="m-3 ">
+          <h2 className="text-md font-thin m-10 bg-white rounded-full p-2 md:w-1/4 px-4 ">
                 P O P U L A R C A T E G O R I E S
               </h2>
+          <div className="flex flex-col md:flex-row min-h-screen bg-gray-50 m-5 lg:m-10 ">
+            {/* Sidebar */}
+            <div className="hidden bg-white md:flex md:flex-col  w-full md:w-1/6 p-4 lg:mt-0  h-full py-10 ">
+              
 
               <ul className="space-y-5 md:flex md:flex-col items-start ">
                 {categories.map((cat) => (
@@ -155,7 +156,7 @@ const Portfolio = () => {
                     className={`transition-colors duration-200 ${
                       selectedCategory === cat.key
                         ? "text-gray-900 font-semibold"
-                        : "text-gray-400 hover:text-gray-900"
+                        : "text-gray-500 hover:text-gray-900"
                     }`}
                   >
                     {cat.title}
@@ -174,7 +175,7 @@ const Portfolio = () => {
                 {(categoryData[selectedCategory] || []).map((item, index) => (
                   <div
                     key={index}
-                    className="bg-white   overflow-hidden  lg:odd:mb-10 "
+                    className="bg-bg-gray-50   overflow-hidden  lg:odd:mb-10 "
                   >
                     <Image
                       src={item.image}
