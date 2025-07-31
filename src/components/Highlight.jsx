@@ -7,10 +7,10 @@ const Highlight = () => {
   return (
     <>
       <div className="flex md:flex-row flex-col gap-3 py-6 px-6">
-        <div className="text-xl md:text-3xl font- md:mono w-1/3">
+        <div className="text-xl md:text-3xl  md:font-mono ">
           We Convert It as per Your Dream
         </div>
-        <div className="text-xl md:text-3xl font-mono md:w-2/3 flex flex-col">
+        {/* <div className="text-xl md:text-3xl font-mono md:w-2/3 flex flex-col">
           <h1>
             From Structure to Design We are here to help you with your dream
             project
@@ -27,7 +27,7 @@ const Highlight = () => {
               quality craftsmanship every step of the way
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="flex flex-col md:flex-row gap-3 py-6 px-6">
         <div className="flex flex-col gap-4">
@@ -63,6 +63,8 @@ const Highlight = () => {
 />
         </div>
       </div>
+      
+
     </>
   );
 };

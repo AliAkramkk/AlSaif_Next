@@ -2,6 +2,7 @@ import React from "react";
 import img from "next/image";
 const Alsaif = () => {
   return (
+    <>
     <div className="bg-white py-10 px-6 md:px-10 md:py-10 overflow-hidden relative">
       <h1 className="text-xl font-mono py-8">
         We Are happy to see the transformation
@@ -11,7 +12,7 @@ const Alsaif = () => {
         <img
           src="/assets/interior4.jpg"
           alt="Alsaif"
-          className="md:w-[650px] md:h-[450px] mask-radial-[100%_110%] mask-radial-from-75% mask-radial-at-left ..."
+          className="md:w-[650px] md:h-[450px] mask-radial-[100%_190%] mask-radial-from-75% "
         />
         {/* <img
         className="mask-radial-[100%_100%] mask-radial-from-75% mask-radial-at-left ..." src={"img"} /> */}
@@ -43,6 +44,8 @@ const Alsaif = () => {
         </div>
       </div>
     </div>
+   
+    </>
   );
 };
 

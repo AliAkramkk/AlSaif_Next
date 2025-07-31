@@ -15,6 +15,8 @@ import SeoHead from "@/components/SeoHead";
 
 import roomImg from "../../public/assets/hom1.jpg";
 import excellence from "../../public/assets/allogo.png";
+import HighlightStyle from "@/components/HighlightStyle";
+import FooterStyle from "@/components/FooterStyle";
 
 // Animation config outside render
 const fadeInFromLeft = {
@@ -160,7 +162,9 @@ export default function HomePage() {
       <Alsaif />
       <HomeProjects />
       <Highlight />
+      <HighlightStyle/>
       <Services />
+      <FooterStyle />
       <Footer />
     </>
   );
