@@ -94,7 +94,7 @@ const Navbar = () => {
           <div className="text-lg font-light tracking-widest mb-10">
             A L &nbsp; S A I F &nbsp; I N T E R I O R S
           </div>
-          <ul className="space-y-6 text-xl">
+          <ul className="space-y-6 text-xl font-thin">
             <li><Link href="/" onClick={() => setMenuOpen(false)}>HOME</Link></li>
             <li><Link href="/portfolio" onClick={() => setMenuOpen(false)}>PORTFOLIO</Link></li>
             <li><Link href="/about" onClick={() => setMenuOpen(false)}>ABOUT</Link></li>

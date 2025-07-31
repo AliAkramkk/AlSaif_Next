@@ -16,13 +16,13 @@ const FooterStyle = () => {
 
           {/* Image Positioned to the Right */}
           <div className="hidden md:block w-1/3  justify-end pr-6 relative">
-            <div className="absolute -top-20 right-24">
+            <div className="absolute -top-20 right-24  shadow-gray-500 shadow-2xl rounded-t-full bg-amber-200">
               <Image
                 src="/assets/proj1.jpg"
                 alt="Interior Design"
                 width={226}
                 height={750}
-                className=" h-[300px]  object-contain  rounded-t-full border-black border "
+                className=" h-[300px]  object-contain  rounded-t-full  "
               />
             </div>
           </div>
