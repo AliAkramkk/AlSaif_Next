@@ -9,6 +9,7 @@ import {
 } from "@/data/clientsData";
 import Image from "next/image";
 import homecard from "../../public/assets/homcard6.jpg";
+import FooterStyle from "@/components/FooterStyle";
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState(categories[0].key);
 
@@ -197,6 +198,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+        <FooterStyle />
         <Footer />
       </section>
     </>

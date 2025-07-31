@@ -7,6 +7,7 @@ import Footer from '@/components/Footer';
 import SeoHead from '@/components/SeoHead'; // 🛜 add SEO Head
 import 'react-phone-input-2/lib/style.css';
 import PhoneInput from 'react-phone-input-2';
+import FooterStyle from '@/components/FooterStyle';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -170,7 +171,7 @@ const ContactPage = () => {
 
         </div>
       </div>
-
+<FooterStyle />
       <Footer />
     </>
   );

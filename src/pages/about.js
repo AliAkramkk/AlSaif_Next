@@ -7,6 +7,7 @@ import Services from '@/components/Services';
 import SeoHead from '@/components/SeoHead'; // 🛜 Add SEO
 import Image from 'next/image';
 import excellence from '../../public/assets/excelence.jpg';
+import FooterStyle from '@/components/FooterStyle';
 
 const About = () => {
   return (
@@ -87,7 +88,7 @@ const About = () => {
         <ClientsLogo />
         <Services />
       </section>
-
+<FooterStyle />
       <Footer />
     </>
   );
