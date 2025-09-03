@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-center gap-6">
         <div>
           {/* <p className=" text-lg">Let’s</p> */}
-          <h2 className="text-3xl md:text-5xl font-semibold">Get in touch</h2>
+          <h2 className="text-3xl md:text-5xl font-stretch-50%">Get in touch</h2>
         </div>
 
         <Link href="/contact" passHref>

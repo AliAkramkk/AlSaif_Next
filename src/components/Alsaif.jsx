@@ -1,47 +1,55 @@
 import React from "react";
 import img from "next/image";
+import { FaRegCommentDots, FaRegStickyNote ,FaCheckCircle} from "react-icons/fa";
 const Alsaif = () => {
   return (
     <>
     <div className="bg-white py-10 px-6 md:px-10 md:py-10 overflow-hidden relative">
-      <h1 className="text-xl font-mono py-8">
-        We Are happy to see the transformation
+      <h1 className="text-3xl md:text-8xl text-center font-stretch-50% py-8 md:m-20">
+        Shape Your space with <br /> <span className="font-semibold text-purple-900">Al Saif Interiors</span>
       </h1>
 
-      <div className="flex md:flex-row flex-col items-center gap-4">
-        <img
-          src="/assets/interior4.jpg"
-          alt="Alsaif"
-          className="md:w-[650px] md:h-[450px] mask-radial-[100%_190%] mask-radial-from-75% "
-        />
-        {/* <img
-        className="mask-radial-[100%_100%] mask-radial-from-75% mask-radial-at-left ..." src={"img"} /> */}
-        <div class="font-mono">
-          
-          <p class="mt-2 text-3xl text-gray-700 dark:text-gray-300  ">
-            17 Years of Excellence
-          </p>
-          <p className="mt-1 text-sm leading-relaxed text-balance text-gray-800 max-h-[200px] overflow-hidden font-light md:max-h-none">
-            Founded in 2006 Al Saif Decor has proudly established itself as a
-            trusted name in the United Arab Emirates contracting and interior
-            solutions industry With over 17 years of dedicated service we have
-            contributed to the architectural and commercial landscape across the
-            Emirates delivering high-quality tailored solutions that reflect
-            both local culture and modern design standards From government
-            projects to luxury residences and commercial developments our
-            portfolio reflects the depth of our expertise and the trust we have
-            built with our clients Our strength lies in precise engineering
-            creative execution and a commitment to on-time delivery—core values
-            that align with the UAE fast-paced high-standard development
-            vision At Al Saif Decor our people are our foundation Our
-            carefully selected team brings professionalism innovation and deep
-            industry knowledge to every project With cutting-edge project
-            management clear communication and transparent progress tracking
-            we continue to raise the bar in quality and customer satisfaction
-            We dont just build spaces—we build lasting relationships shaped by
-            trust performance and a shared pursuit of excellence in the UAE
-          </p>
+      <div className="flex flex-col md:flex-row gap-8">
+        {/* Advice Card */}
+        <div className="  md:h-[600px] m-4  md:ml-24 rounded-3xl p-8 flex flex-col ">
+     
+
+      {/* Big Heading */}
+      <div className="md:flex justify-center gap-y-6 md:gap-6 ">
+        <div className="md:w-56 md:h-44 bg-[#fae4ca] rounded-2xl p-4 text-center shadow-md -rotate-2 ">
+          <h2 className="md:font-stretch-50% md:text-4xl">Interior Fit Out Services</h2>
+          {/* <p className="text-xs md:text-sm mt-2">Discover your brand voice</p> */}
         </div>
+        <div className="md:w-56 md:h-44 bg-[#fde68a] rounded-2xl p-4 text-center shadow-md z-10">
+          <h2 className="md:font-stretch-50% md:text-4xl">Architectural Design & Consultancy</h2>
+        </div>
+        <div className="md:w-56 md:h-44 bg-[#fca5a5] rounded-2xl p-4 text-center shadow-md transform rotate-3">
+       <h2 className="md:font-stretch-50% md:text-4xl">Maintenance & MEP Solutions</h2>
+        </div>
+        <div className="md:w-56 md:h-44 bg-[#fde68a] rounded-2xl p-2 text-center shadow-md z-10">
+          <h2 className="md:font-stretch-50% md:text-4xl ">3D Visualization & Rendering</h2>
+        </div>
+         {/* <div className="w-40 h-32 bg-[#fae4ca] rounded-2xl p-4 text-center shadow-md transform rotate-6">
+         <h2 className="md:font-stretch-50% md:text-2xl">Interior Design & Consultation</h2>
+        </div> */}
+      </div>
+
+      {/* Step Cards */}
+      <div className="flex justify-center gap-6 mt-10">
+        <div className="w-56 h-44 bg-[#fae4ca] rounded-2xl p-4 text-center shadow-md transform -rotate-6">
+        <h2 className="md:font-stretch-50% md:text-3xl">Space Planning & Furniture Layouts</h2>
+        </div>
+        <div className="w-56 h-44 bg-[#fde68a] rounded-2xl p-4 text-center shadow-md z-10">
+          <h2 className="md:font-stretch-50% md:text-4xl">Interior Design & Consultation</h2>
+        </div>
+        <div className="w-56 h-44 bg-[#fca5a5] rounded-2xl p-4 text-center shadow-md transform rotate-6">
+         <h2 className="md:font-stretch-50% md:text-3xl">Kiosk Design & Manufacturing</h2>
+        </div>
+      </div>
+    </div>
+
+        {/* Action Card */}
+       
       </div>
     </div>
    

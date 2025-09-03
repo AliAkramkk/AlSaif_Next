@@ -1,50 +1,36 @@
 import React from "react";
-import { useRouter } from "next/router";
+import Image from "next/image";
 import { homeProjects } from "../data/clientsData";
 
-const HomeProjects = () => {
-  const router = useRouter();
-
+const ProjectGallery = () => {
   return (
-    <div className="hidden md:block">
-      <div className="bg-slate-50 flex flex-col md:flex-row h-[80vh] overflow-hidden">
-        {homeProjects.map((project) => (
+    <section className="bg-slate-50 py-16 px-6 md:px-12">
+      {/* Section Title */}
+      <h1 className="text-6xl md:text-8xl font-stretch-50% text-center mb-14">
+        Our <span className="font-semibold text-purple-900">Projects</span>
+      </h1>
+
+      {/* Image Grid */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+        {homeProjects.map((project, index) => (
           <div
             key={project.id}
-            className="relative flex-1 group overflow-hidden border-r border-gray-200 last:border-none"
+            className={`relative overflow-hidden rounded-3xl shadow-md group 
+              ${index % 5 === 0 ? "row-span-1" : ""} 
+              ${index % 3 === 0 ? "col-span-2" : ""}`}
           >
-            {/* Vertical text */}
-            <div className="absolute inset-0 z-10 flex flex-col items-center justify-center transition-all duration-300 group-hover:opacity-0">
-              <p className="transform rotate-0 md:rotate-90 text-gray-900 tracking-wider text-base  font-light">
-                {project.title}
-              </p> 
-            </div>
-
-            {/* Image and overlay */}
-            <img
+            <Image
               src={project.image}
               alt={project.title}
-              className="absolute inset-0 h-[700px] w-[550px] object-scale-down opacity-0 group-hover:opacity-100 transition-opacity font-light"
+              width={600}
+              height={400}
+              className="object-cover w-full h-full transform group-hover:scale-105 transition duration-500"
             />
-
-            <div className="absolute inset-0 flex items-start justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
-              <div className="bg-white p-6 shadow-lg max-w-[80%] max-h-[50%]">
-                <h4 className="text-sm text-gray-500 uppercase">Setup  {project.number}</h4>
-                <h2 className="text-lg font-light">➔{project.title}</h2>
-                <p className="text-sm text-gray-600 mt-2 font-light">{project.subtitle}</p>
-                {/* <button
-                  onClick={() => router.push(`/project/${project.id}`)}
-                  className="text-sm text-blue-600 mt-4 hover:underline"
-                >
-                  See Detail →
-                </button> */}
-              </div>
-            </div>
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
-export default HomeProjects;
+export default ProjectGallery;

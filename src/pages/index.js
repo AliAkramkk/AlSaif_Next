@@ -51,97 +51,11 @@ export default function HomePage() {
         <div className="grid md:grid-cols-2 items-center gap-10">
           {/* Left Content */}
           <div>
-            <h1 className="text-4xl md:text-6xl font-light leading-tight text-gray-900">    Transform Your Workspace with <br />
-               <span className="inline-block font-mono text-[20px] lg:text-[55px]">
-    {"Al".split("").map((char, i) => (
-      <motion.span
-        key={`al-${i}`}
-        custom={i}
-        variants={fadeInFromLeft}
-        initial="hidden"
-        animate="visible"
-        className="text-black border border-dotted border-blue-800 px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#3b82f6]"
-      >
-        {char}
-      </motion.span>
-    ))}
-
-    {/* Space between Al and Saif */}
-    <span className="inline-block w-[6px]" />
-
-    {"Saif".split("").map((char, i) => (
-      <motion.span
-        key={`saif-${i}`}
-        custom={i + 2}
-        variants={fadeInFromLeft}
-        initial="hidden"
-        animate="visible"
-        className="text-black border border-dotted border-gold px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#FFD700]"
-      >
-        {char}
-      </motion.span>
-    ))}
-
-    {/* Space between Saif and Decor */}
-    <span className="inline-block w-[6px]" />
-
-    {"Dec".split("").map((char, i) => (
-      <motion.span
-        key={`dec-${i}`}
-        custom={i + 7}
-        variants={fadeInFromLeft}
-        initial="hidden"
-        animate="visible"
-        className="text-black border border-dotted border-gold px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#FFD700]"
-      >
-        {char}
-      </motion.span>
-    ))}
-     {"or".split("").map((char, i) => (
-      <motion.span
-        key={`or-${i}`}
-        custom={i + 11}
-        variants={fadeInFromLeft}
-        initial="hidden"
-        animate="visible"
-        className="text-black border border-dotted border-blue-800 px-1 mx-0.5 inline-block hover:shadow-[0_0_5px_#3b82f6]"
-      >
-        {char}
-      </motion.span>
-    ))}
-  </span>
+            <h1 className="text-4xl md:text-9xl font-stretch-50% leading-tight text-gray-900">    Transform Your Workspace  
+             
             </h1>
 
-           <p className="text-gray-800 mt-6 font-light text-lg md:w-3/4">
-              A well designed space is more than just visual appeal  it is
-              where comfort meets creativity  Whether you are structuring a
-              new office or upgrading interiors Al Saif Decor brings vision to
-              life through thoughtful design quality craftsmanship and
-              excellence built over 17 years
-            </p>
-
-            <Link href="/contact">
-              <button className="relative overflow-hidden px-4 py-2 mt-5 rounded-md text-sm tracking-widest flex items-center gap-2 group border">
-                <span className="relative  z-10 text-black group-hover:text-white transition-colors duration-300">
-                  EXPLORE NOW
-                </span>
-                <span className="text-2xl relative z-10 text-black group-hover:text-white transition-colors duration-300">
-                  ↗
-                </span>
-                <span className="absolute inset-0 bg-black scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out z-0" />
-              </button>
-            </Link>
-
-            <div className="mt-4">
-              <Image
-                src={excellence}
-                alt="17 Years of Excellence at Al Saif Decor"
-                width={200}
-                height={200}
-                className="slow-bounce "
-                priority
-              />
-            </div>
+          
           </div>
 
           {/* Right Image */}
@@ -151,19 +65,19 @@ export default function HomePage() {
               alt="Modern Office Design by Al Saif Decor"
               width={950}
               height={650}
-              className="object-contain md:object-cover md:w-[1950px] md:-mt-22 md:ml-20 clip-diagonal"
+              className="object-contain md:object-cover md:w-[2550px] md:-mt-22 md:ml-20 clip-diagonal"
               priority
             />
           </div>
         </div>
       </div>
 
-      <Clients />
       <Alsaif />
       <HomeProjects />
-      <Highlight />
-      <HighlightStyle/>
-      <Services />
+      <Clients />
+      {/* <Highlight /> */}
+      {/* <HighlightStyle/> */}
+      {/* <Services /> */}
       <FooterStyle />
       <Footer />
     </>

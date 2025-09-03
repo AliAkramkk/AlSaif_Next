@@ -3,12 +3,12 @@ import Image from 'next/image';
 
 const FooterStyle = () => {
   return (
-    <div className='-mb-16 mt-10'>
-      <div className="relative bg-gray-100 px-6 md:px-1 w-full  rounded-tr-full">
+    <div className='-mb-16 mt-36'>
+      <div className="relative bg-gray-100 px-6 md:px-1 w-full  md:rounded-tr-full">
         <div className='flex flex-row items-start relative'>
           {/* Text Section */}
           <div className="w-2/3 z-10">
-            <h1 className='mt-6 md:mt-5 text-2xl md:text-6xl font-serif px-3'>
+            <h1 className='mt-6 md:mt-5 text-2xl md:text-6xl font-stretch-50% px-3'>
               Interest in <br />
               <span>Working with Us?</span>
             </h1>

@@ -71,7 +71,7 @@ export const homeProjects = [
     // subtitle:
       // "Transform your kitchen into a modern, functional space with our custom design and professional installation services.",
     number: "01",
-    image: "/assets/alsaif2.jpeg",
+    image: "/assets/custmrlong.jpeg",
   },
   {
     id: 2,
@@ -83,7 +83,7 @@ export const homeProjects = [
 
     //   "Create an inviting shopping experience with stylish, efficient shop interiors designed to boost your brand and customer comfort",
     number: "02",
-    image: "/assets/mdlr2.jpeg",
+    image: "/assets/ega.jpeg",
   },
   {
     id: 3,
@@ -108,7 +108,34 @@ export const homeProjects = [
     number: "04",
     image: "/assets/k2.jpeg",
   },
-
+  {
+  id: 3,
+    title: "Reception Area",
+    image: "/assets/flyrec.jpeg",
+},
+  {
+        title: "Custom Interior Design",
+        description: "Designing unique and personalized interior spaces.",
+       
+        image: "/assets/alsaif4.jpeg",
+      },
+      {
+        title: "Office Space",
+        description: "Creating flexible and efficient office environments.",
+        image: "/assets/tripwork2.jpeg",
+      },
+      {
+        title: "Office Space",
+        description: "Creating flexible and efficient office environments.",
+        image: "/assets/alsaif3.jpeg",
+      },
+   
+   {
+  id: 3,
+    title: "Reception Area",
+    image: "/assets/alsaif6.jpeg",
+},
+   
   
 ];
 
@@ -139,6 +166,7 @@ export const portfolio = [
     title: "Kindergarten",
     image: "/assets/k3.jpeg",
   },
+
 ];
 
 export const portfolioDetail = [

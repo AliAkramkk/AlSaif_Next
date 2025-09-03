@@ -26,9 +26,7 @@ const Clients = () => {
       {/* Title */}
       <div className="flex flex-col md:flex-row items-center md:items-start">
         <div className="w-full text-center">
-          <h1 className="text-2xl md:text-3xl pt-5 font-mono text-gray-700">
-            Our Trusted Clients
-          </h1>
+         
         </div>
       </div>
 
@@ -45,7 +43,7 @@ const Clients = () => {
               key={index}
               src={client.logo}
               alt={client.name}
-              className="h-16 md:h-28 w-auto object-contain hover:grayscale-0 transition duration-300 bg-transparent"
+              className="h-10 md:h-14 w-auto object-contain hover:grayscale-0 transition duration-300 bg-transparent"
             />
           ))}
         </div>
@@ -64,7 +62,7 @@ const Clients = () => {
               key={index}
               src={client.logo}
               alt={client.name}
-              className="h-10 md:h-16 w-auto object-contain hover:grayscale-0 transition duration-300 bg-transparent"
+              className="h-7 md:h-10 w-auto object-contain hover:grayscale-0 transition duration-300 bg-transparent"
             />
           ))}
         </div>
