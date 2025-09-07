@@ -17,6 +17,7 @@ import roomImg from "../../public/assets/hom1.jpg";
 import excellence from "../../public/assets/allogo.png";
 import HighlightStyle from "@/components/HighlightStyle";
 import FooterStyle from "@/components/FooterStyle";
+import ServiceCard from "@/components/ServiceCard";
 
 // Animation config outside render
 const fadeInFromLeft = {
@@ -71,7 +72,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-
+<ServiceCard />
       <Alsaif />
       <HomeProjects />
       <Clients />

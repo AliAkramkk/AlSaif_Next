@@ -331,14 +331,14 @@ export const categoryData =
      ],
     ModernSpace: [
     {
-      title: "Kiosk Design Top view",
+      title: "Open Kitchen",
       description: "Visualizing spaces with advanced 3D modeling techniques.",
-      image: "/assets/mdrn3.jpeg",
+      image: "/assets/alsaif2.jpeg",
     },
     {
-      title: "Kiosk Design Front view",
+      title: "Living Room",
       description: "Visualizing spaces with advanced 3D modeling techniques.",
-      image: "/assets/mdrn4.jpeg",
+      image: "/assets/alsaif3.jpeg",
     },
     {
       title: "Dining Area",

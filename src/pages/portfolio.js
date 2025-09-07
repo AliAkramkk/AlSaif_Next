@@ -25,10 +25,10 @@ const Portfolio = () => {
         <div className="max-w-7xl mx-auto">
           <div>
             <div className="md:w-2/3">
-              <h1 className="text-xl md:text-2xl md:text-start font-mono mt-4 px-2 text-gray-600">
+              {/* <h1 className="text-xl md:text-2xl md:text-start font-mono mt-4 px-2 text-gray-600">
                 Portfolio
               </h1>
-              <hr className="hidden md:block border-t-2 border-gray-500 md:w-1/3 w-1/2 md:-mt-1 ml-1" />
+              <hr className="hidden md:block border-t-2 border-gray-500 md:w-1/3 w-1/2 md:-mt-1 ml-1" /> */}
               <h2 className="text-2xl font-mono text-gray-800 mt-2 ">
                 Our Creations Speak for Themselves
               </h2>
@@ -141,7 +141,7 @@ const Portfolio = () => {
           </h1>
         </div>
         <div className="m-3 ">
-          <h2 className="text-md font-thin m-10 bg-white rounded-full p-2 md:w-1/4 px-4 ">
+          <h2 className="text-md font-thin m-10  md:w-1/4 px-4 ">
                 P O P U L A R C A T E G O R I E S
               </h2>
           <div className="flex flex-col md:flex-row min-h-screen bg-gray-50 m-5 lg:m-10 ">
