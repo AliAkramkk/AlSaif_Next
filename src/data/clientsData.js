@@ -111,29 +111,29 @@ export const homeProjects = [
   {
   id: 3,
     title: "Reception Area",
-    image: "/assets/flyrec.jpeg",
+    image: "/assets/tripwork2.jpeg",
 },
   {
         title: "Custom Interior Design",
         description: "Designing unique and personalized interior spaces.",
        
-        image: "/assets/alsaif4.jpeg",
+        image: "/assets/alsaif6.jpeg",
       },
       {
         title: "Office Space",
         description: "Creating flexible and efficient office environments.",
-        image: "/assets/tripwork2.jpeg",
+        image: "/assets/newwork1.jpeg",
       },
       {
         title: "Office Space",
         description: "Creating flexible and efficient office environments.",
-        image: "/assets/alsaif3.jpeg",
+        image: "/assets/newwork2.jpeg",
       },
    
    {
   id: 3,
     title: "Reception Area",
-    image: "/assets/alsaif6.jpeg",
+    image: "/assets/newwork3.jpeg",
 },
    
   

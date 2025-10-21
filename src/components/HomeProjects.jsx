@@ -7,7 +7,7 @@ const ProjectGallery = () => {
     <section className="bg-slate-50 py-16 px-6 md:px-12">
       {/* Section Title */}
       <h1 className="text-6xl md:text-8xl font-stretch-50% text-center mb-14">
-        Our <span className="font-semibold text-purple-900">Projects</span>
+        Our <span className="font-semibold text-purple-900">Recent Works</span>
       </h1>
 
       {/* Image Grid */}
